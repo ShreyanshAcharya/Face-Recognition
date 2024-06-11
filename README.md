@@ -111,6 +111,9 @@ One convolution layer of the VGG-Face model is trained with 400 images. Predicti
 
 Deeper convolution layers focus more on crucial facial features such as eyes and nose.
 
+![image](https://github.com/ShreyanshAcharya/Face-Recognition/assets/59439172/121b4a98-3e2e-48e7-9d27-673eda04ed56)
+
+
 ## Observations
 
 Using Register2, which includes both regular and occluded faces, consistently results in better accuracy. This highlights the importance of incorporating diverse data in training.
