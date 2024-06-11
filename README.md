@@ -10,9 +10,14 @@ The goal is to evaluate and improve the performance of face recognition systems 
 - Investigating the effects of occlusion and orientation on face recognition accuracy.
 - Enhancing the robustness of face recognition models to handle these variations effectively.
 
+- ![image](https://github.com/ShreyanshAcharya/Face-Recognition/assets/59439172/9622c133-a07f-48de-8b01-34d47473ee22)
+
+
 ## Dataset
 
 - **Brazilian Face Dataset**: Contains 2800 images, 14 images for each of the 200 individuals, including 2 separate frontal images for each individual. Each image is labeled with a consistent FaceID for the same individual.
+- ![image](https://github.com/ShreyanshAcharya/Face-Recognition/assets/59439172/f56417b0-3d08-4b9f-a1ae-b193be369887)
+
 
 ## Project Description
 
@@ -30,12 +35,17 @@ For more details on VGG-Face, visit the [GitHub repository](https://github.com/r
 ## Face Extraction Using MTCNN
 
 MTCNN is utilized for extracting faces from images due to its superior performance.
+![image](https://github.com/ShreyanshAcharya/Face-Recognition/assets/59439172/01ee119c-3b41-4ef0-9247-5ed82deb0643)
+
 
 ## Applying Occlusion
 
 Two types of occlusions are introduced:
 1. **Central Occlusion**
 2. **Peripheral Occlusion** (Left and Right)
+
+![image](https://github.com/ShreyanshAcharya/Face-Recognition/assets/59439172/4d17afbb-b85a-4229-a441-66e6797d74d4)
+
 
 Occlusions are applied by setting pixels to zero in rectangular shapes on the images, with occlusion levels of 5% and 15%.
 
